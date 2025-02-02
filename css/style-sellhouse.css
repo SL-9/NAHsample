@@ -272,6 +272,17 @@ dd {
 	color: #ffffff;
 }
 
+.footer-nav__item {
+	text-decoration: none;
+	text-underline-offset: 4px;
+}
+
+.footer-nav__item:hover {
+	text-decoration: underline solid 2px #0000FF;
+	color: #0000FF;
+	opacity: .5;
+}
+
 .footer-nav__item:last-child {
 	margin-left: 150px;
 }

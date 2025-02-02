@@ -5,3 +5,29 @@ jQuery(function ($) {
 		duration: 1800, // エフェクトの時間を指定します。
 	});
 });
+
+$(function () {
+	//ハンバーガーメニュー( sp )
+	$btnMenu = $("#js-btn-menu");
+	$gnav = $(".gnav");
+
+	$btnMenu.on("click", function () {
+		$btnMenu.toggleClass("active");
+		$gnav.toggleClass("show");
+		$gnav.animate({ width: "toggle" }, 200);
+		// 横方向に開閉する
+	});
+
+	$(document).on("click", function (e) {
+		if (
+			!$(e.target).closest($gnav).length &&
+			!$(e.target).closest($btnMenu).length
+		) {
+			if ($gnav.hasClass("show")) {
+				$gnav.removeClass("show");
+				$btnMenu.toggleClass("active");
+				$gnav.animate({ width: "toggle" }, 200);
+			}
+		}
+	});
+});

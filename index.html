@@ -13,8 +13,10 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Kosugi&family=M+PLUS+1p&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Gothic&family=Sawarabi+Mincho&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
-	
+	<link
+		href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Kosugi&family=M+PLUS+1p&family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Gothic&family=Sawarabi+Mincho&family=Zen+Kaku+Gothic+New&display=swap"
+		rel="stylesheet">
+
 
 
 
@@ -43,6 +45,9 @@
 						<li class="gnav__item"><a class="gnav__link gnav__link--active" href=".">お問い合わせ</a></li>
 					</ul>
 				</nav>
+				<button type="button" id="js-btn-menu" class="btn-menu">
+					<span class="btn-menu__line"></span>
+				</button>
 			</div>
 		</header>
 		<!-- /header -->
@@ -50,7 +55,7 @@
 		<!-- mv -->
 		<div class="mv">
 			<div class="mv__titleArea">
-				<h2 class="mv__title">「住生活」をトータルサポート</h2>
+				<h2 class="mv__title">「住生活」を<br class="mv_br">トータルサポート</h2>
 			</div>
 		</div>
 		<!-- /mv -->
@@ -75,7 +80,7 @@
 									</figure>
 									<div class="business-list__text">
 										<p>
-											ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー
+											理想の住まいを見つけるなら、売買ページをチェック！最新の物件情報を豊富に取り揃え、あなたのライフスタイルにぴったりな物件がきっと見つかります。詳細情報や内覧のご予約も簡単にできますので、今すぐご覧ください。
 										</p>
 									</div>
 									<div class="business-list__category">
@@ -116,7 +121,7 @@
 									</figure>
 									<div class="business-list__text">
 										<p>
-											ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー
+											賃貸物件の管理ならお任せください！専任スタッフが、物件の管理から入居者対応まで丁寧にサポート。安心・信頼の管理サービスで、オーナー様の大切な資産を守ります。詳しくは賃貸管理ページをご覧ください。
 										</p>
 									</div>
 									<div class="business-list__btn">
@@ -138,7 +143,7 @@
 									</figure>
 									<div class="business-list__text">
 										<p>
-											ダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミーダミー
+											「お住まいのリフォームをお考えなら、ぜひリフォームページをご覧ください。デザインから施工まで、専門のスタッフが理想の空間作りをサポート。お客様のご要望に合わせた最適なプランをご提案します。
 										</p>
 									</div>
 									<div class="business-list__btn">
@@ -156,6 +161,7 @@
 			<!-- investment -->
 			<section class="investment">
 				<div class="container">
+					
 					<div class="investment__body">
 						<figure class="investment-list__img-wrapper">
 							<img class="investment-list__img" src="img/im_illustration1.svg" width="104" height="104" alt="投資イラスト">
@@ -190,6 +196,38 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="business-list__item business-list__item-investment">
+						<figure class="business-list__img-wrapper">
+							<img class="business-list__img" src="img/im_illustration1.svg" width="104" height="104"
+								alt="投資イラスト">
+						</figure>
+						<div class="business-list__body">
+							<div class="business-list__subtitle">Investment</div>
+							<div class="business-list__title">投 資</div>
+							<figure class="business-list__mainimg-wrapper">
+								<img class="business-list__mainimg" src="img/im_img1.jpg" alt="投資写真">
+							</figure>
+							<div class="business-list__text">
+								<p>
+									沖縄で不動産投資を行う大きなメリットとして、その温暖な気候と豊かな自然環境があげられます。観光客に人気が高いエリアのため、賃貸需要が安定しており、高い収益が見込める点が魅力です。また、他の都市部と比べて不動産価格が割安な傾向があり、少ない自己資金で投資が始めやすいという点も魅力です。
+								</p>
+							</div>
+							<div class="business-list__btn">
+								<a href="#" class="btn">MORE</a>
+							</div>
+							<div class="investment-list__category">
+								<ul>
+									<li><a href="">一棟売りビル</a></li>
+									<li><a href="">一棟売りマンション・アパート</a></li>
+									<li><a href="">区分マンション</a></li>
+									<li><a href="">検索条件追加</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+
 				</div>
 			</section>
 			<!-- /investment -->
@@ -206,7 +244,7 @@
 							<img src="img/logo.png" alt="NAH">
 						</h1>
 						<div class="co_wrapper">
-							<p class="co_adress">〒900-0014　沖縄県那覇市松尾2丁目17-29 タウンコート玉商Ⅱ 5-G</p>
+							<p class="co_adress">〒900-0014　<br class="co_br">沖縄県那覇市松尾2丁目17-29 <br class="co_br">タウンコート玉商Ⅱ 5-G</p>
 							<div class="co_contact-wrapper">
 								<p class="co_tel"><span class="encircle">TEL</span>　098-988-8225</p>
 								<p class="co_fax"><span class="encircle">FAX</span>　098-988-8224</p>
